@@ -7,6 +7,12 @@ export default {
   component: Heading,
   args: {
     children: 'Lorem ipsum',
+  },
+  argTypes: {
+    size: {
+      options: ['small', 'medium', 'large'],
+      control: 'inline-radio'
+    }
   }
 } as Meta<HeadingProps>
 
