@@ -28,5 +28,12 @@ export const CustomComponent: StoryObj<TextProps> = {
   args: {
     asChild: true,
     children: <p>Testing component as paragraph</p>
+  },
+  argTypes: {
+    children: {
+      table: {
+        disable: true
+      }
+    }
   }
 }
