@@ -5,13 +5,17 @@ module.exports = {
     colors: {
       black: "#000",
       white: "#fff",
-      "gray-900": "#121214",
-      "gray-800": "#202024",
-      "gray-700": "#7c7c8a",
-      "gray-300": "#c4c4cc",
-      "gray-100": "#e1e1e6",
-      "cyan-500": "#81d8f7",
-      "cyan-300": "#9be1fb",
+      gray: {
+        900: "#121214",
+        800: "#202024",
+        400: "#7c7c8a",
+        200: "#c4c4cc",
+        100: "#e1e1e6",
+      },
+      cyan: {
+        500: "#81d8f7",
+        300: "#9be1fb",
+      },
     },
     fontSize: {
       xs: 14,
