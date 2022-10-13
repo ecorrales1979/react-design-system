@@ -3,6 +3,8 @@ module.exports = {
   content: ["./src/**/*.tsx"],
   theme: {
     colors: {
+      black: "#000",
+      white: "#fff",
       "gray-900": "#121214",
       "gray-800": "#202024",
       "gray-700": "#7c7c8a",
