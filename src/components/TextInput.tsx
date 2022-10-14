@@ -16,6 +16,8 @@ function TextInputRoot({children}: TextInputRootProps) {
   )
 }
 
+TextInputRoot.displayName = 'TextInput.Root';
+
 export interface TextInputIconProps {
   children: ReactNode;
 }
@@ -29,11 +31,15 @@ function TextInputIcon({ children }: TextInputIconProps) {
   )
 }
 
+TextInputIcon.displayName = 'TextInput.Icon';
+
 function TextInputInput(props: TextInputInputProps) {
   return (
     <input {...props} className="bg-transparent flex-1 outline-none text-gray-100 text-xs placeholder:text-gray-400" />
   )
 }
+
+TextInputInput.displayName = 'TextInput.Input';
 
 export const TextInput = {
   Root: TextInputRoot,
