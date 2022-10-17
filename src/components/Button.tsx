@@ -15,7 +15,7 @@ export function Button({ children, asChild, fullWidth, className, ...props }: Bu
     <Component
       className={
         clsx(
-          'py-4 px-3 bg-cyan-500 rounded font-semibold text-black text-sm font-sans transition-colors hover:bg-cyan-300 focus:ring-2 ring-white',
+          'py-3 px-4 bg-cyan-500 rounded font-semibold text-black text-sm font-sans transition-colors hover:bg-cyan-300 focus:ring-2 ring-white',
           {
             'w-full': fullWidth
           },
