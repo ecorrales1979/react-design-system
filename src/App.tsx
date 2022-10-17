@@ -13,7 +13,7 @@ export function App() {
   return (
     <div className="w-screen h-screen flex flex-col justify-center items-center bg-gray-900 text-gray-100">
       <header className="flex flex-col items-center">
-        <Logo width={150} height={150} />
+        <Logo width={150} height={150} className="hover:animate-spin-slow" />
         <Heading size="large" className="mt-4 mb-2">Ignite Lab</Heading>
         <Text size="large" className="text-gray-400">Login and start using</Text>
       </header>

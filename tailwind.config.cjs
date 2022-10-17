@@ -27,6 +27,9 @@ module.exports = {
       "2xl": 32,
     },
     extend: {
+      animation: {
+        "spin-slow": "spin 3s linear infinite",
+      },
       fontFamily: {
         sans: "Inter, sans-serif",
       },
